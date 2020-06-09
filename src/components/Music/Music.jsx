@@ -1,12 +1,12 @@
 import React from 'react';
 
-const News = (props) => {
+const Music = (props) => {
     return(
         <div>
-            News
+            Music
         </div>
     )
 }
 
 
-export default News;
+export default Music;
