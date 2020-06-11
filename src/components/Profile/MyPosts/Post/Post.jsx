@@ -4,7 +4,7 @@ import s from './Post.module.css';
 const Post = (props) => {
    return (
 
-      <div className={s.item}>
+      <div className={s.dialog}>
          <img src="https://i.wpimg.pl/730x0/m.gadzetomania.pl/tumblr-kwh4eacbzu1qaptl6-a9d2590.jpg" alt="" />
              {props.message}
          <div>

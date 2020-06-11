@@ -1,8 +1,9 @@
 
-.item {
+.dialog {
    color: green;
+   padding: 10px;
 }
-.item img {
+.dialog img {
    width: 100px;
    height: 100px;
    border-radius: 30px;
