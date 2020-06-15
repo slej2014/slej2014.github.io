@@ -10,6 +10,7 @@ import Settings from "./components/Settings/Settings";
 import {BrowserRouter, Route} from "react-router-dom";
 
 
+
 const App = (props) => {
     return (
         <BrowserRouter>
@@ -25,6 +26,7 @@ const App = (props) => {
                     <Route path="/music" render={ () => <Music/> }/>
                     <Route path="/settings" render={ () => <Settings/> }/>
                 </div>
+
             </div>
         </BrowserRouter>
     );

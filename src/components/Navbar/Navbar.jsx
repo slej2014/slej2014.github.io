@@ -4,6 +4,7 @@ import {NavLink} from "react-router-dom";
 
 
 
+
 const Navbar = () => {
    return (
       <nav className={s.nav}>
@@ -22,6 +23,14 @@ const Navbar = () => {
          <div className={s.item}>
             <NavLink  to="/settings" activeClassName={s.activeLink}>Settings</NavLink >
          </div>
+          <div className={s.friends}>
+              <div>Friends</div>
+              <div className={s.frAva}>
+                      <img src="https://png.pngtree.com/png-clipart/20190903/original/pngtree-couple-boy-cute-avatar-png-image_4445471.jpg" alt="" />
+                      <img src="https://png.pngtree.com/png-clipart/20190903/original/pngtree-couple-boy-cute-avatar-png-image_4445471.jpg" alt="" />
+                      <img src="https://png.pngtree.com/png-clipart/20190903/original/pngtree-couple-boy-cute-avatar-png-image_4445471.jpg" alt="" />
+              </div>
+          </div>
       </nav>
    )
 }
